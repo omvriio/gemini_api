@@ -5,11 +5,11 @@ chat_api.py is a chatbot with history and a simple interface
 vision_api.py isusing "gemini-pro-vision' to learn about the image you upload
 
 ## to run the code locally 
---first install the requirements
+- first install the requirements
 ```bash
 pip install -r requirements.txt
 ```
---then run the streamlit app
+- then run the streamlit app
 ```bash
 streamlit run chat_api.py --server.enableXsrfProtection false
 ```
