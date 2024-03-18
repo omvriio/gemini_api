@@ -1,8 +1,8 @@
 # gemini_api
 A repository containing a simple gemini api streamlit application.
 The vision model is deployed here : https://visionapi.streamlit.app/
-## chat_api.py is a chatbot with history and a simple interface
-## vision_api.py is a using "gemini-pro-vision' to learn about the image you upload
+chat_api.py is a chatbot with history and a simple interface
+vision_api.py isusing "gemini-pro-vision' to learn about the image you upload
 
 ## to run the code locally 
 --first install the requirements
