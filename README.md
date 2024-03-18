@@ -4,7 +4,7 @@ chat_api.py is a chatbot with history and a simple interface
 vision_api.py isusing "gemini-pro-vision' to learn about the image you upload
 
 ## Getting a Gemini API Key
-To get a Gemini API key, follow these steps:
+To get a Gemini API key got to this link:
 https://aistudio.google.com/app/apikey
 ![Image Description](image.png)
 
