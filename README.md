@@ -1,16 +1,29 @@
 # gemini_api
 A repository containing a simple gemini api application.
 
+## chat_api.py is a chatbot with history and a simple interface
+## vision_api.py is a using "gemini-pro-vision' to learn about the image you upload
+
+## to run the code locally 
+--first install the requirements
+```bash
+pip install -r requirements.txt
+```
+--then run the streamlit app
+```bash
+streamlit run chat_api.py --server.enableXsrfProtection false
+```
+or for the vision model :
+```bash
+streamlit run vision_api.py --server.enableXsrfProtection false
+```
 ## Getting a Gemini API Key
 To get a Gemini API key, follow these steps:
-
-1. Go to the Gemini website (https://www.gemini.com/) and sign in to your account.
-2. Navigate to the API section in your account settings.
-3. Click on "Create a new API key" or similar option.
-4. Provide a name for your API key and select the desired permissions.
-5. Complete any additional verification steps required by Gemini.
-6. Once your API key is generated, make sure to securely store the key and secret.
-7. Update your application code with the generated API key and secret to authenticate API requests.
-
-Please note that the exact steps may vary slightly depending on the Gemini website's interface and any updates made by Gemini. Always refer to the official Gemini documentation for the most up-to-date instructions.
+https://aistudio.google.com/app/apikey
 ![Image Description](image.png)
+
+## Setting up the Gemini API Key
+change your API key f dak .env file
+
+Note : the same API key is used in both vision_api and chat_api
+
