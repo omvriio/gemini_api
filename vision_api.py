@@ -1,12 +1,10 @@
 import google.generativeai as genai
 from PIL import Image
 import streamlit as st
-from dotenv import load_dotenv
 import os
 from time import sleep
 
-# Load GOOGLE_API_KEY from .env file
-load_dotenv()
+
 # Configure Streamlit page settings
 st.set_page_config(
     page_title="Chatbot with Gemini-Pro!",
